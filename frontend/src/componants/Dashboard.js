@@ -205,21 +205,21 @@ function Dashboard() {
 
       </div>
       <div className="statistics-section">
-        <p className='heading'> Trasactions Statistics</p>
+        <p className='heading s'> Trasactions Statistics</p>
         <Statistics month={month} />
 
       </div>
 
       <div className="barChart">
 
-        <p className="heading">Transactions BarChart</p>
+        <p className="heading s">Transactions BarChart</p>
         <PriceRangeChart month={month} />
 
       </div>
 
       <div className="categories">
 
-        <p className="heading">Transactions Categories / PieChart</p>
+        <p className="heading s">Transactions Categories / PieChart</p>
         <div className='category-section'>
 
           <div className="piechart">
