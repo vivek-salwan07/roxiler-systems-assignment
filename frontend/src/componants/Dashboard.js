@@ -12,7 +12,7 @@ function Dashboard() {
   const [page, setPage] = useState(1);
   const [perPage] = useState(10);
   const [totalPages, setTotalPages] = useState(1);
-  const [month, setMonth] = useState('All');
+  const [month, setMonth] = useState('03');
   const [cand, setCand] = useState('')
 
   // console.log('transations', transactions);
@@ -111,10 +111,10 @@ function Dashboard() {
 
           <p><span>Select Month </span>
             <select name="month" id="" onChange={(e) => setMonth(e.target.value)}>
+            <option value="03">Mar</option>
               <option value='All' >All</option>
               <option value='01'>Jan</option>
               <option value="02">Feb</option>
-              <option value="03">Mar</option>
               <option value="04">Apr</option>
               <option value="05">May</option>
               <option value="06">June</option>
